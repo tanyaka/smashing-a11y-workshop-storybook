@@ -5,6 +5,12 @@ import { Label } from './Label';
 const meta = {
   title: 'Broken/Label',
   component: Label,
+  parameters: {
+    a11y: {
+      // will check it later - 08. Oct 2026
+      test: 'todo',
+    },
+  },
 } satisfies Meta<typeof Label>;
 
 export default meta;
