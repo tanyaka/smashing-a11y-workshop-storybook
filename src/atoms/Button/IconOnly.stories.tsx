@@ -8,7 +8,7 @@ const meta = {
   parameters: {
     a11y: {
       // will check it later - 10. Sept 2026
-      test: 'todo',
+      test: 'error',
     },
   },
 } satisfies Meta<typeof Button>;
@@ -33,5 +33,5 @@ const SearchIcon = (
 
 // Deliberate error: the icon has no accessible name.
 export const IconOnly: Story = {
-  args: { children: SearchIcon },
+  args: { children: SearchIcon, 'aria-label': 'Search' },
 };

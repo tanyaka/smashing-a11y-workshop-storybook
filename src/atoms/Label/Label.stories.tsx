@@ -8,7 +8,7 @@ const meta = {
   parameters: {
     a11y: {
       // will check it later - 08. Oct 2026
-      test: 'todo',
+      test: 'error',
     },
   },
 } satisfies Meta<typeof Label>;
